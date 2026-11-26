@@ -69,11 +69,11 @@ The resulting visualization illustrates the breakdown of mineral entities by jur
 ## Dashboard Insights & Analysis
 The Power BI dashboard groups mineral assets by state and operational status (Deposit vs. Producing Mine), revealing critical strategic takeaways:
 
-- **Jurisdictional Concentration: Western Australia (WA) and Queensland (QLD) dominate both resource volume and active operations by a wide margin, driven heavily by bulk commodities and critical mineral exploration.
+- Jurisdictional Concentration: Western Australia (WA) and Queensland (QLD) dominate both resource volume and active operations by a wide margin, driven heavily by bulk commodities and critical mineral exploration.
 
-- **Pipeline Conversion Ratio: Across most states, the volume of classified Deposits significantly outweighs Producing Mines, highlighting substantial future project pipelines and exploration activity.
+- Pipeline Conversion Ratio: Across most states, the volume of classified Deposits significantly outweighs Producing Mines, highlighting substantial future project pipelines and exploration activity.
 
-- **Data Integrity: Stringent Power Query and Python filtering successfully eliminated coordinate-string anomalies, ensuring clean categorical groupings by state.
+- Data Integrity: Stringent Power Query and Python filtering successfully eliminated coordinate-string anomalies, ensuring clean categorical groupings by state.
 
 References
 Geoscience Australia 2024, Australia's identified mineral resources 2024, Australian Government, Canberra, viewed 26 November 2026, .
