@@ -5,7 +5,7 @@ This project delivers an automated data engineering pipeline and executive visua
 
 ---
 
-## 🚀 Workflow & AI-Assisted Engineering
+## Workflow & AI-Assisted Engineering
 To build this project efficiently, artificial intelligence tools were leveraged as an active development partner alongside Python (Google Colab) and Power BI. Rather than writing repetitive boilerplate code from scratch, AI was utilized to:
 * **Accelerate Script Architecture:** Rapidly prototype the dynamic header-detection loop to handle shifting row alignments across 29 messy commodity worksheets.
 * **Debug ETL Anomalies:** Instantly diagnose coordinate shifting and string mismatches during the multi-tab consolidation phase.
