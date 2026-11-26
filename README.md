@@ -1,4 +1,4 @@
-# Project #4: End-to-End Geospatial Pipeline & Mineral Resource Analysis (Australia)
+# End-to-End Geospatial Pipeline & Mineral Resource Analysis (Australia)
 
 ## Executive Summary
 This project delivers an automated data engineering pipeline and executive visualization dashboard analyzing **Australia's Identified Mineral Resources (AIMR)** (Geoscience Australia 2024). By programmatically consolidating 29 individual commodity sheets into a single clean master dataset, this project highlights spatial concentrations of producing mines versus undeveloped deposits across Australian jurisdictions.
