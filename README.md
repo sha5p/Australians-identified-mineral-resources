@@ -59,6 +59,12 @@ master_df = pd.concat(all_deposits, ignore_index=True)
 master_df.to_csv("gold_australian_mineral_deposits.csv", index=False)
 print("Cleaned total deposits:", len(master_df))
 ```
+### Power BI
+Following the extraction and transformation phase in Google Colab, the refined dataset was seamlessly integrated into Power BI Desktop to construct an interactive executive dashboard. This phase focused on translating raw categorical variables into actionable visual intelligence regarding Australia's resource distribution.
+
+The resulting visualization illustrates the breakdown of mineral entities by jurisdiction and operational classification:
+<img width="892" height="451" alt="image" src="https://github.com/user-attachments/assets/29de0ad5-6e00-40db-91d8-e0f54c9af7fa" />
+
 
 ### Dashboard Insights & Analysis
 The Power BI dashboard groups mineral assets by state and operational status (Deposit vs. Producing Mine), revealing critical strategic takeaways:
