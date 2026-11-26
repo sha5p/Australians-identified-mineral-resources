@@ -15,7 +15,7 @@ Using AI as a force multiplier allowed for rapid iteration, robust error handlin
 
 ---
 
-## 1. Data Engineering & ETL Pipeline (Python / Google Colab)
+## Data Engineering & ETL Pipeline (Python / Google Colab)
 The raw public sector data contained structural complexities, including multi-row headers and mixed metadata across 29 commodity-specific worksheets. 
 
 * **Ingestion & Dynamic Parsing:** Developed a robust Python script using `pandas` to iterate through the workbook, dynamically locate header rows containing key identifiers (`Entity ID`, `State`, `Latitude`, `Longitude`), and filter out non-deposit summary tabs.
@@ -59,14 +59,14 @@ master_df = pd.concat(all_deposits, ignore_index=True)
 master_df.to_csv("gold_australian_mineral_deposits.csv", index=False)
 print("Cleaned total deposits:", len(master_df))
 ```
-### Power BI
+## Power BI
 Following the extraction and transformation phase in Google Colab, the refined dataset was seamlessly integrated into Power BI Desktop to construct an interactive executive dashboard. This phase focused on translating raw categorical variables into actionable visual intelligence regarding Australia's resource distribution.
 
 The resulting visualization illustrates the breakdown of mineral entities by jurisdiction and operational classification:
 <img width="892" height="451" alt="image" src="https://github.com/user-attachments/assets/29de0ad5-6e00-40db-91d8-e0f54c9af7fa" />
 
 
-### Dashboard Insights & Analysis
+## Dashboard Insights & Analysis
 The Power BI dashboard groups mineral assets by state and operational status (Deposit vs. Producing Mine), revealing critical strategic takeaways:
 
 - **Jurisdictional Concentration: Western Australia (WA) and Queensland (QLD) dominate both resource volume and active operations by a wide margin, driven heavily by bulk commodities and critical mineral exploration.
