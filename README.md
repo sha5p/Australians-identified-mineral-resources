@@ -58,3 +58,17 @@ for sheet in commodity_tabs:
 master_df = pd.concat(all_deposits, ignore_index=True)
 master_df.to_csv("gold_australian_mineral_deposits.csv", index=False)
 print("Cleaned total deposits:", len(master_df))
+```
+
+### Dashboard Insights & Analysis
+The Power BI dashboard groups mineral assets by state and operational status (Deposit vs. Producing Mine), revealing critical strategic takeaways:
+
+- **Jurisdictional Concentration: Western Australia (WA) and Queensland (QLD) dominate both resource volume and active operations by a wide margin, driven heavily by bulk commodities and critical mineral exploration.
+
+- **Pipeline Conversion Ratio: Across most states, the volume of classified Deposits significantly outweighs Producing Mines, highlighting substantial future project pipelines and exploration activity.
+
+- **Data Integrity: Stringent Power Query and Python filtering successfully eliminated coordinate-string anomalies, ensuring clean categorical groupings by state.
+
+References
+Geoscience Australia 2024, Australia's identified mineral resources 2024, Australian Government, Canberra, viewed 26 November 2026, .
+https://data.gov.au/data/dataset/australias-identified-mineral-resources-2024/resource/9725688b-0c86-4ffc-bc8f-cbc7b2d1fbc3
